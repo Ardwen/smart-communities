@@ -1,0 +1,301 @@
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+display:block;
+}
+h2{
+margin-left: 65px;
+text-shadow:1px 0px 3px gray;
+}
+h3{
+font-size:18px;
+text-align:center;
+text-shadow:1px 0px 3px gray;
+}
+
+
+
+b{
+font-size:18px;
+text-shadow:1px 0px 3px gray;
+}
+#popup{
+padding-top:80px;
+}
+
+.form{
+border-radius:2px;
+border: 2px solid gray;
+padding:10px 10px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:0% 20% 5% 20%;
+float:left;
+}
+
+input{
+width:100%;
+height:35px;
+margin-top:5px;
+border:1px solid #999;
+border-radius:3px;
+padding:5px;
+}
+input[type=button]{
+background-color:#ff9911;
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white;
+width:49%;
+}
+textarea{
+width:100%;
+height:80px;
+margin-top:5px;
+border-radius:3px;
+padding:5px;
+resize:none;
+}
+
+#contactdiv{
+opacity:0.92;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background: #000;
+display: none;
+}
+
+#login,#contact{
+width:350px;
+margin:0px;
+background-color:white;
+font-family: 'Fauna One', serif;
+position: relative;
+border: 5px solid gray;
+}
+
+.img{
+float: right;
+margin-top: -35px;
+margin-right: -37px;
+}
+#contact{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-255px;
+}
+#login{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-158px;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+.introduction {
+  color: #808080;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff9911;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+#onclick {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+  margin:8% 2% 5% 25%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#onclick:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+#onclick:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #ff9911;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ffcc66;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ffcc33;
+}
+
+/* Testimonial Section */
+
+
+#testimonials {
+  background-color: #ffcc66;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 60%;
+}
+
+
+#press {
+  background-color: #ff9911;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#intro {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

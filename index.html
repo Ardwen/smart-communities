@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Smart Community</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <!-- Nav Bar -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <a class="navbar-brand">Smart community</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Explore</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Flooding</a>
+              <a class="dropdown-item" href="#">Financial</a>
+              <a class="dropdown-item" href="#">Gone Violence</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- introduction -->
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-6 ">
+          <h1 class="big-heading">Data empower our community.</h1>
+        </div>
+        <!-- subscribe button -->
+        <div class="col-lg-6">
+          <button type="button" id="onclick">Subscribe us!</button>
+
+          <div class="col">
+          </div>
+          <div class="col">
+            <p class="introduction">The SRTI Lab is working with the Urbana, Champaign and Savoy communities to help them analyze their maintenance request data and test new technologies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- subscribe form-->
+    <div id="contactdiv">
+      <form class="form" action="#" id="contact">
+        <h3>Join our mailing list!</h3>
+        <hr /><br />
+        <label>Name: <span>*</span></label>
+        <br />
+        <input type="text" id="name" placeholder="Name" /><br />
+        <br />
+        <label>Email: <span>*</span></label>
+        <br />
+        <input type="text" id="email" placeholder="Email" /><br />
+        <br />
+        <input type="button" id="send" value="Send" />
+        <input type="button" id="cancel" value="Cancel" />
+        <br />
+      </form>
+    </div>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-brain fa-4x"></i>
+          <h3 class="feature-title">AI+</h3>
+          <p>Exploer the potential of AI</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-chart-bar fa-4x"></i>
+          <h3 class="feature-title">Data Analytics</h3>
+          <p>Our analysis help community imporve</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-home fa-4x"></i>
+          <h3 class="feature-title">Community</h3>
+          <p>Give back our community</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- projects -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid" id="project1">
+          <h3 class="testimonial-text">gun violence</h3>
+          <img class="d-block w-100" src="images/gun_violence2.png" alt="First slide">
+          <em></em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">some introductin for project1</h2>
+          <img class="testimonial-image" src="" alt="lady-profile">
+          <em></em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/uiuc.jpeg" alt="-logo">
+    <img class="press-logo" src="images/tnw.png" alt="-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="-logo">
+    <img class="press-logo" src="images/mashable.png" alt="-logo">
+
+  </section>
+
+
+  <!-- introduction -->
+
+  <section class="white-section" id="intro">
+
+    <h3 class="section-heading">About us</h3>
+    <p>The SRTI Lab is working with the Urbana, Champaign and Savoy communities to help them analyze their maintenance request data and test new technologies for use in the community. For Champaign, this has included creating geo visualizations of
+      the data as pictured above and starting work on correlating maintenance issues like flooding to weather data for the same timeframes. We’re also testing AI technologies like video recognition to streamline workflows. We’ve begun investigating
+      areas of opportunity where we could partner with Urbana and Savoy as well.</p>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2019</p>
+    </div>
+  </footer>
+
+<script type = "text/javascript" src = "index.js" ></script>
+<script src="jquery-1.12.4.min.js"></script>
+</body>
+
+</html>

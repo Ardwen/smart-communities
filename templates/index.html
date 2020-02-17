@@ -10,7 +10,7 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -51,7 +51,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Flooding</a>
               <a class="dropdown-item" href="#">Financial</a>
-              <a class="dropdown-item" href="#">Gone Violence</a>
+              <a class="dropdown-item" href="project1.html">Gone Violence</a>
             </div>
           </li>
         </ul>
@@ -106,7 +106,7 @@
 
       <div class="row">
         <div class="feature-box col-lg-4">
-          <i class="icon fas fa-brain fa-4x"></i>
+          <i class="icon fas fa-laptop fa-4x"></i>
           <h3 class="feature-title">AI+</h3>
           <p>Exploer the potential of AI</p>
         </div>
@@ -134,13 +134,23 @@
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid" id="project1">
-          <h3 class="testimonial-text">gun violence</h3>
-          <img class="d-block w-100" src="images/gun_violence2.png" alt="First slide">
+          <a href = "{{ url_for('project1') }}">
+          <img class="d-block w-100" src="{{ url_for('static', filename='images/gun_violence2.png') }}" alt="First slide">
+        </a>
+          <div class="">
+          <h5>Gun Violence</h5>
+          <p>some introductions </p>
+          </div>
           <em></em>
         </div>
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">some introductin for project1</h2>
-          <img class="testimonial-image" src="" alt="lady-profile">
+          <a href = "project2.html" >
+          <img class="d-block w-100" src="{{ url_for('static', filename='images/Finance.jpeg') }}"  alt="First slide">
+        </a>
+          <div class="">
+          <h5>Financial report</h5>
+          <p>some introductions </p>
+          </div>
           <em></em>
         </div>
       </div>
@@ -158,7 +168,7 @@
   <!-- Press -->
 
   <section class="colored-section" id="press">
-    <img class="press-logo" src="images/uiuc.jpeg" alt="-logo">
+    <img class="press-logo" src="{{ url_for('static', filename='images/uiuc.jpeg') }}" alt="-logo">
     <img class="press-logo" src="images/tnw.png" alt="-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="-logo">
     <img class="press-logo" src="images/mashable.png" alt="-logo">
@@ -190,7 +200,7 @@
     </div>
   </footer>
 
-<script type = "text/javascript" src = "index.js" ></script>
+<script type = "text/javascript" src = "{{ url_for('static', filename='index.js') }}"></script>
 <script src="jquery-1.12.4.min.js"></script>
 </body>
 
